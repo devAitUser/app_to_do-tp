@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiClient = axios.create({
   baseURL:
-    "https://5000-gbrah-gitpodandroidstu-x0c3qydpzif.ws-eu118.gitpod.io/api", // remplace ça par ton vrai endpoint
+    "http://34.132.43.143/api", // remplace ça par ton vrai endpoint
   headers: {
     "Content-Type": "application/json",
   },
