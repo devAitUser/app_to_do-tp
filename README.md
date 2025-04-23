@@ -13,14 +13,16 @@ Les etapes de déploiement :
 Schéma du Projet:
 ```plaintext
 app_to_do-tp/
+├── node_modules/              # Modules installés (backend + frontend)
 ├── public/                    # Fichiers publics pour React
 │   └── index.html             # Page HTML principale
 ├── src/                       # Code source React (frontend)
-│   ├── api.js                 # Appels API vers Express
-│   ├── App.js                 # Composant principal React
 │   ├── components/            # Composants React personnalisés
 │   │   ├── Header.js
 │   │   └── TaskItem.js
+│   ├── services/              # Dossier pour les services (API, etc.)
+│   │   └── api.js             # Appels API vers Express
+│   ├── App.js                 # Composant principal React
 │   └── index.js               # Point d'entrée de l'app React
 ├── database.db                # Base de données SQLite
 ├── server.js                  # Serveur Express (backend)
