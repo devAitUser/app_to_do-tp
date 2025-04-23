@@ -13,7 +13,6 @@ Les etapes de déploiement :
 Schéma du Projet:
 ```plaintext
 app_to_do-tp/
-├── node_modules/              # Modules installés (backend + frontend)
 ├── public/                    # Fichiers publics pour React
 │   └── index.html             # Page HTML principale
 ├── src/                       # Code source React (frontend)
