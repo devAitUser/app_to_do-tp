@@ -11,7 +11,9 @@ Les etapes de déploiement :
  &nbsp;&nbsp; lier l’adresse IP publique de la machine à un nom de domaine pour un accès plus simple et professionnel
 
 Schéma du Projet:
- app_to_do-tp/
+```plaintext
+app_to_do-tp/
+├── node_modules/              # Modules installés (backend + frontend)
 ├── public/                    # Fichiers publics pour React
 │   └── index.html             # Page HTML principale
 ├── src/                       # Code source React (frontend)
@@ -26,6 +28,7 @@ Schéma du Projet:
 ├── package.json               # Dépendances et scripts du projet
 ├── package-lock.json          # Lockfile npm
 └── README.md                  # Documentation du projet
+```
 
   
 Les Technologies utilisées :
